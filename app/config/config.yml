@@ -19,8 +19,6 @@ framework:
     csrf_protection: ~
     validation:      { enable_annotations: true }
     #serializer:      { enable_annotations: true }
-    serializer:
-        enabled: true
     templating:
         engines: ['twig']
     default_locale:  "%locale%"
